@@ -25,7 +25,6 @@ public class GameController : MonoBehaviour
             DontDestroyOnLoad(gameObject);
             gameController = this;
             SetDefaultValue();
-            File.Delete(Application.persistentDataPath + "gameInfo.dat");
         }
         else
         {
